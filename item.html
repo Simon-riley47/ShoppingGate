@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopping Gate</title>
+  <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <!-- start navbar  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h3 class="text-warning fw-bold">
+          Shopping Gate
+        </h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="admin.html">Admin</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+              <li><a class="dropdown-item" href="#">Terms of Service</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar  -->
+
+  <!-- start hero -->
+  <section class="container mt-5">
+    <div class="row">
+      <!-- content -->
+      <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 bg-body-tertiary py-5 px-3 rounded-2">
+        <h1 class="text-warning fw-bolder">SHOPPING GATE</h1>
+        <p class="fw-lighter h4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quod doloremque odit
+          mollitia adipisci repellendus natus unde aperiam, consequuntur veniam, atque velit nemo distinctio magnam</p>
+        <hr class="bg-warning">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nobis voluptatum hic mollitia quaerat corporis
+          sunt ab consectetur nisi. Ullam!</p>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 border-warning focus-ring focus-ring-warning" type="search"
+            placeholder="Search..." aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+
+
+
+      
+      <!-- accordion -->
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-warning focus-ring focus-ring-warning" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                Shop
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>
+                  <ul>
+                    <li>Add to cart</li>
+                    <li>View cart</li>
+                    <li>View item</li>
+                    <li>Search</li>
+                  </ul>
+                </strong>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit adipisci consequatur nihil eveniet
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-warning focus-ring focus-ring-warning" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                Cart
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>
+                  <ul>
+                    <li>Remove from cart</li>
+                    <li>Clear cart</li>
+                    <li>Checkout</li>
+                  </ul>
+                </strong> 
+                amet consectetur adipisicing elit. Tenetur ullam placeat, et,
+                dolores ipsa dolore similique deserunt laborum amet nulla incidunt. Nam nisi, placeat dicta ratione
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-warning focus-ring focus-ring-warning" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                Admin
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>
+                  <ul>
+                    <li>Add product</li>
+                    <li>Edit product</li>
+                    <li>Delete product</li>
+                  </ul>
+                </strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi est
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end hero -->
+
+
+
+  <!-- start item -->
+  <section class="container h-100 mt-3">
+  
+  </section>
+  <!-- end item -->
+  
+  <!-- start footer-->
+  <footer class="text-center text-white bg-warning mt-4">
+    <div class="container pt-4">
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-floating mb-4">
+                <input type="email" class="form-control" id="newsletterEmail" />
+                <label for="newsletterEmail">Email address</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-light mb-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="mb-4">
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#" role="button" title="Portfolio" data-mdb-ripple-color="dark">
+          <i class="fa fa-solid fa-briefcase"></i>
+        </a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:ghost.maklad@gmail.com" role="button" title="Email" data-mdb-ripple-color="dark">
+          <i class="fab fa-google"></i>
+        </a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/scarecr0w" role="button" title="Linkedin" data-mdb-ripple-color="dark">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Simon-riley47" role="button" title="Github" data-mdb-ripple-color="dark">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+    </div>
+    <div class="text-center p-3 bg-dark">
+      © 2025 Copyright:
+      <a class="text-warning" href="https://myportfolio.com/">ScareCrow</a>
+    </div>
+  </footer>
+  <!-- end footer-->
+
+
+  <!--Javascript-->
+  <script src="../js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
