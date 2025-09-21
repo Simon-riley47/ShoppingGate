@@ -1,0 +1,42 @@
+.price {
+    font-size: 30px;
+}
+
+.product-img{
+    padding: 15px;
+}
+
+.noitemsimg{
+    width: 200px;
+    height: auto
+}
+
+@media (min-width: 768px) {
+    .contact-form {
+        padding-left: 55px;
+        border-left: solid 2px black;
+    }
+}
+
+.form-bg{
+    background-color: rgb(211, 211, 211);
+}
+
+.login-body{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 174, 0));
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-form{
+    background-color: rgb(255, 255, 255);
+    border: solid 5px #000000;
+    border-radius: 10px;
+    width: fit-content;
+}
